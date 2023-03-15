@@ -11,7 +11,6 @@ for v in range(0, 7):
     else:
         valoresi.append(n)
         lista.append(valoresi[:])
-        valoresi.sort()
-        
+        valoresi.sort()       
 print(f'Os valores pares pares digitados foram {valoresp}')
 print(f'Os valores pares ímpares digitados foram {valoresi}')
