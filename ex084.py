@@ -12,13 +12,13 @@ while True:
         break
 print(lista)
 for p in lista:
-    if p[1] > 75.0:
-        print(f'É {p[0]} uma pessoa mais pesada.')
+    if p[1] > 70.0:
+        print(f'{p[0]} é uma pessoa mais pesada.')
         maisp += 1
     else:
-        print(f'É {p[0]} uma pessoa mais leve.')
+        print(f'{p[0]} é uma pessoa mais leve.')
         menosp += 1
-print(f'Temos {maisp} pessoas pesadas e {menosp} pessoas leves.')
+print(f'Temos {maisp} pessoas pesadas e {menosp} pessoa mais leves.')
 
 
 
