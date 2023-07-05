@@ -1,0 +1,5 @@
+frase = input(str('Digite uma frase:'))
+quantas_vezes = frase.count('a')
+procurar = frase.find('a')
+pelaultima_vez = frase.rfind('a')
+print("A letra A aparece {}, na posição {} pela primeira vez, na posição {} pela ultima vez.".format(quantas_vezes, procurar, pelaultima_vez))
